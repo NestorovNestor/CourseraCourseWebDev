@@ -1,22 +1,21 @@
 * {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  text-align: center;
-  font-size: 1.75em;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 1.75em;
 }
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    align-content: center;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -142,37 +141,39 @@ h1 {
 }
 
 .wrapper {
-  width: 90%;
-  overflow: auto;
+    width: 100%;
+    overflow: auto;
 }
 
 .menu-option {
-  border: 1px solid black;
-  margin-bottom: 15px;
-  width: 85%;
+    border: 1px solid black;
+    margin: 0px 15px 15px 15px;
 }
 
-.menu-option > div {
-  float: right;
-  width: 80px;
-  text-align: center;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+.menu-option>div {
+    float: right;
+    min-width: 30%;
+    height: auto;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 1.25em;
 }
 
-.menu-option > p {
-  padding: 5px;
-  clear: both;
+.menu-option>p {
+    padding: 10px;
+    clear: both;
+    margin: auto;
 }
 
-div#chicken{
-  background-color: #D59898;
+div#chicken {
+    background-color: #D59898;
 }
 
 div#beef {
-  background-color: #C14543;
+    background-color: #C14543;
 }
 
-div#sushi{
-  background-color: #E5D198;
+div#sushi {
+    background-color: #E5D198;
 }
